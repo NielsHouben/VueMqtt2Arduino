@@ -28,7 +28,8 @@ server.on('clientConnected', (client) => {
 })
 
 server.on('published', (packet, client) => {
-  console.log('Published', packet.payload.toString())
+  // console.log('Published', packet.payload.toString())
+  console.log("published: ", packet.payload.toString())
 })
 
 
